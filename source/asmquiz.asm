@@ -36,11 +36,11 @@ z db 10,'+0 points',13,10,'$'
 u db 10,'+1 point',13,10,'$'
 d db 10,'+2 points',13,10,'$'
 t db 10,'+3 points',13,10,'$'
-cmax db 10,'Congratulations! Everything is correct! Bravo. - Rank A',13,10,'$' ;18 puncte
-cgood db 10,'Hey, you are pretty good! - Rank B',13,10,'$' ;13-17 puncte
-cmed db 10,'Hmm... Passable, but you can do better! - Rank C',13,10,'$';7-12 puncte
-cbad db 10,'Not good! Try again! - Rank D',13,10,'$';1-6 puncte
-cmin db 10,'Unbelievable... All of your answers are plain wrong! - Rank E',13,10,'$' ;0 puncte
+cmax db 10,'Congratulations! Everything is correct! Bravo. - Rank A',13,10,'$' ;18 points
+cgood db 10,'Hey, you are pretty good! - Rank B',13,10,'$' ;13-17 points
+cmed db 10,'Hmm... Passable, but you can do better! - Rank C',13,10,'$';7-12 points
+cbad db 10,'Not good! Try again! - Rank D',13,10,'$';1-6 points
+cmin db 10,'Unbelievable... All of your answers are plain wrong! - Rank E',13,10,'$' ;0 points
 
 .code
 ;Initializing data segment
